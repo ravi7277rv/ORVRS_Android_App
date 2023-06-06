@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:backgroundTint="@color/blur_shade_1"
+    android:background="@drawable/border"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:orientation="vertical"
+        android:background="@drawable/border"
+        android:layout_marginTop="-35dp"
+        android:backgroundTint="@color/purple_700"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/car_repair"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Vehicle Here"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:fontFamily="@font/bungee"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:letterSpacing=".1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/border"
+        android:backgroundTint="@color/darkYellow"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-35dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ediVehicle_Owner_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Enter Owner Name"
+            android:backgroundTint="#F8D3D3"
+            android:background="@drawable/border"
+            android:textColor="#000000"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"/>
+
+        <EditText
+            android:id="@+id/ediVehicle_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Enter vehicle number"
+            android:backgroundTint="#F8D3D3"
+            android:background="@drawable/border"
+            android:textColor="#000000"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"/>
+
+        <EditText
+            android:id="@+id/ediVehicle_Model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Enter Vehicle Model"
+            android:backgroundTint="#F8D3D3"
+            android:background="@drawable/border"
+            android:textColor="#000000"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"/>
+
+        <EditText
+            android:id="@+id/ediVehicle_Chassis_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:hint="Enter vehicle Chassis No."
+            android:backgroundTint="#F8D3D3"
+            android:background="@drawable/border"
+            android:textColor="#000000"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:paddingStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"/>
+
+
+        <Button
+            android:id="@+id/btnAddVehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Vehicle"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:backgroundTint="@color/purple_700"
+            android:background="@drawable/border"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"/>
+
+
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

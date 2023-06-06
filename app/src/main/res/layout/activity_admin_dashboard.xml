@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000"
+    tools:context=".AdminDashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <!-- ===================  TOOLBAR SECTION START HERE ===========================   -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/adminToolBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#B3B3B3">
+
+                </androidx.appcompat.widget.Toolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+        </LinearLayout>
+        <!-- ===================  TOOLBAR SECTION END HERE ===========================   -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardElevation="15dp"
+                android:layout_margin="17dp"
+                app:cardCornerRadius="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg4">
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Our Expert Mechanics For You"
+                        android:textColor="#A60606"
+                        android:textStyle="italic|bold"
+                        android:textSize="20sp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"/>
+
+                    <Button
+                        android:id="@+id/btnAddMechanic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Mechanics"
+                        android:textColor="#8A0404"
+                        android:textSize="20sp"
+                        android:textAllCaps="false"
+                        android:backgroundTint="#959494"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="55dp"/>
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardElevation="15dp"
+                android:layout_margin="17dp"
+                app:cardCornerRadius="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg6">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:text="Our Users Believe On Us"
+                        android:textColor="#20BD98"
+                        android:textSize="20sp"
+                        android:textStyle="italic|bold" />
+
+                    <Button
+                        android:id="@+id/btnViewUsers"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="55dp"
+                        android:backgroundTint="#31372F"
+                        android:paddingStart="25dp"
+                        android:paddingEnd="25dp"
+                        android:text="Users"
+                        android:textAllCaps="false"
+                        android:textColor="#fff"
+                        android:textSize="20sp" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:cardElevation="15dp"
+                android:layout_margin="17dp"
+                app:cardCornerRadius="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg1">
+
+                    <Button
+                        android:id="@+id/btnAddServices"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Services"
+                        android:textSize="20sp"
+                        android:textColor="#C55706"
+                        android:textAllCaps="false"
+                        android:backgroundTint="#43A4AA"
+                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="55dp"/>
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="220dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#7A4069">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg8">
+
+                    <TextView
+                        android:id="@+id/txtServReq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Service Request"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFC107"
+                        android:layout_marginStart="23dp"/>
+
+                    <ImageView
+                        android:layout_width="400dp"
+                        android:layout_height="300dp"
+                        android:layout_below="@id/txtServReq"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="30dp"
+                        android:src="@drawable/baseline_miscellaneous_services_24" />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="220dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#7A86B6">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg9">
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Us"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/adminAboutUs"
+                android:textColor="#ffffff"
+                android:layout_marginTop="50dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

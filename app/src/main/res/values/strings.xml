@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ORVRS</string>
+    <string name="splashText2">Nation wide OnRoad Services</string>
+
+    <!--  Here Start login Screen String  -->
+
+    <string name="imgDesc">AppLogo</string>
+    <string name="txtHello">Hello There, Welcome Back</string>
+    <string name="txtSign">SignIn to Continue</string>
+    <string name="ediHintEmail">Enter your phone...</string>
+    <string name="ediHintPass">Enter your Password...</string>
+    <string name="btnSign">SignIn</string>
+    <string name="txtForPass">Forget password?</string>
+    <string name="txtAllAcc">Already have Account!</string>
+    <string name="txtDonAcc">Do not have Account?</string>
+    <string name="txtSinUP">SignUp</string>
+
+    <!--  Here Start SignUp Screen String  -->
+
+    <string name="txtSignUp">SignUp to have Services</string>
+    <string name="ediHinUser">UserName</string>
+    <string name="ediHinUNum">Mobile</string>
+    <string name="ediHinEmail">Email</string>
+    <string name="ediHinVehNum">Vehicle Number</string>
+    <string name="ediHinPas">Password</string>
+    <string name="ediHinCPass">Confirm Password</string>
+    <string name="wel">Welcome</string>
+
+
+    <!--  Admin string start here  -->
+    <string name="adminAboutUs">A mechanic is responsible for inspecting and repairing vehicles, machinery, and light trucks. Also known as service technicians, these professionals oversee maintenance inspections, monitor inventory, assemble mechanical components, and perform repairs.</string>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item android:id="@+id/admMec"-->
+<!--        android:title="Mechanics"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/admRequest"-->
+<!--        android:title="Request"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/admVehicles"-->
+<!--        android:title="Vehicles"/>-->
+
+<!--    <item-->
+<!--        android:id="@+id/admServices"-->
+<!--        android:title="Services"/>-->
+
+    <item
+        android:id="@+id/admLogOut"
+        android:title="Log Out"/>
+</menu>

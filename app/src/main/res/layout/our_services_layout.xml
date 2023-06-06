@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B8B8B8"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_margin="5dp"
+
+        android:id="@+id/cardServices">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <ImageView
+                android:id="@+id/imgServices"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_margin="10dp"
+                android:contentDescription="Services Image"/>
+
+            <TextView
+                android:id="@+id/txtService_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Engine Oil"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toRightOf="@+id/imgServices"/>
+
+            <TextView
+                android:id="@+id/txtPriceTag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price :       ₹"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toRightOf="@+id/imgServices"
+                android:layout_below="@+id/txtService_Name"/>
+
+            <TextView
+                android:id="@+id/txtTotal_Price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:textSize="25sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toRightOf="@+id/txtPriceTag"
+                android:layout_below="@+id/txtService_Name"/>
+
+            <TextView
+                android:id="@+id/txtServiceDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desc :"
+                android:textSize="18sp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="2dp"
+                android:layout_below="@+id/imgServices"/>
+
+           <TextView
+               android:id="@+id/txtService_description"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Should be replaced after 200km"
+               android:textSize="16sp"
+               android:textStyle="italic"
+               android:layout_below="@+id/imgServices"
+               android:layout_marginStart="5dp"
+               android:layout_toRightOf="@+id/txtServiceDesc"/>
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>

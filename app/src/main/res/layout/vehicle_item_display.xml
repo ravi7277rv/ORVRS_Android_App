@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="3dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#838282"
+        android:id="@+id/relative_vehicle_display">
+
+
+
+        <TextView
+            android:id="@+id/OwnerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Owner Name :"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:id="@+id/txtVehicleOwnerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VOwnerName"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/OwnerName"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            />
+
+        <TextView
+            android:id="@+id/VehicleNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/OwnerName"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="3dp"
+            android:padding="4dp"
+            android:singleLine="true"
+            android:text="Vehicle Number :"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txtVehicleNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VehicleNumber"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:layout_below="@id/OwnerName"
+            android:layout_toRightOf="@+id/VehicleNumber"/>
+
+
+        <TextView
+            android:id="@+id/VehicleModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle Model :"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@id/VehicleNumber"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            />
+        <TextView
+            android:id="@+id/txtVehicleModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VehicleModel"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_below="@id/VehicleNumber"
+            android:layout_toRightOf="@id/VehicleModel"
+            android:layout_margin="3dp"
+            android:padding="4dp"
+            />
+
+
+        <TextView
+            android:id="@+id/VehicleChassisNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vehicle ChassisNo :"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:layout_below="@id/VehicleModel"/>
+        <TextView
+            android:id="@+id/txtVehicleChassisNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VehicleChassisNo"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:padding="4dp"
+            android:layout_margin="3dp"
+            android:textStyle="bold"
+            android:layout_below="@id/VehicleModel"
+            android:layout_toRightOf="@id/VehicleChassisNo"/>
+
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

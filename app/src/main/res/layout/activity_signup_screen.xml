@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen"
+    android:background="@color/yellow"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/car"
+            android:contentDescription="@string/imgDesc"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/bungee"
+            android:text="@string/wel"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtSignUp"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTxtUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/edittextsignin_shape"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10sp"
+            android:hint="@string/ediHinUser"
+            android:inputType="text"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColor="@color/white"
+            android:textColorHint="#FFFFFF"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTxtMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/edittextsignin_shape"
+            android:drawableStart="@drawable/ic_baseline_local_phone_24"
+            android:drawablePadding="10sp"
+            android:hint="@string/ediHinUNum"
+            android:inputType="number"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTxtSEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:autofillHints="emailAddress"
+            android:background="@drawable/edittextsignin_shape"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10sp"
+            android:hint="@string/ediHinEmail"
+            android:inputType="textEmailAddress"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+<!--        <EditText-->
+<!--            android:id="@+id/editTxtVehNum"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:autofillHints="emailAddress"-->
+<!--            android:background="@drawable/edittextsignin_shape"-->
+<!--            android:drawableStart="@drawable/ic_baseline_directions_car_24"-->
+<!--            android:drawablePadding="10sp"-->
+<!--            android:hint="@string/ediHinVehNum"-->
+<!--            android:inputType="text"-->
+<!--            android:paddingStart="20dp"-->
+<!--            android:paddingTop="10dp"-->
+<!--            android:paddingEnd="10dp"-->
+<!--            android:paddingBottom="10dp"-->
+<!--            android:textColorHint="#FFFFFF"-->
+<!--            android:textStyle="bold" />-->
+
+        <EditText
+            android:id="@+id/editTxtSPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/edittextsignin_shape"
+            android:drawableStart="@drawable/ic_baseline_security_24"
+            android:drawablePadding="10sp"
+            android:hint="@string/ediHinPas"
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/editTxtCPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/edittextsignin_shape"
+            android:drawableStart="@drawable/ic_baseline_security_24"
+            android:drawablePadding="10sp"
+            android:hint="@string/ediHinCPass"
+            android:inputType="textPassword"
+            android:autofillHints="password"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="10dp"
+            android:textColorHint="#FFFFFF"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnSSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/btnsignin_shape"
+            android:text="@string/txtSinUP"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="18dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/allerta_stencil"
+            android:text="@string/txtAllAcc"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:layout_marginStart="30dp"
+            />
+
+        <TextView
+            android:id="@+id/txtSSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSign"
+            android:textColor="#FF5722"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginStart="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/londrina_shadow"
+            android:text="@string/app_name"
+            android:textColor="#FF8D00"
+            android:textSize="40sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

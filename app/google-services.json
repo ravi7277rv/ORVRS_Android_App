@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "737454130714",
+    "firebase_url": "https://orvrsystem-default-rtdb.firebaseio.com",
+    "project_id": "orvrsystem",
+    "storage_bucket": "orvrsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737454130714:android:a626d2df5e7e935e21f3a3",
+        "android_client_info": {
+          "package_name": "com.example.orvrs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737454130714-ot2rp9javniq4u3r5c8b54o3ekg8b63m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY0NSyUX7he7dRFzSKJYcJn5n19WzmRp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737454130714-ot2rp9javniq4u3r5c8b54o3ekg8b63m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

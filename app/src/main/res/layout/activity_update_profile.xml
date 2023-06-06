@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD8D8"
+    tools:context=".ForgetPassword">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/border_less"
+        android:backgroundTint="#B42B51"
+        android:elevation="20dp"
+        >
+
+
+        <TextView
+            android:id="@+id/txtResetTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can update your profile now"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name*"
+            android:textSize="20sp"
+            android:textColor="#A3A1A1"
+            android:layout_marginStart="20sp"
+            android:layout_below="@+id/txtResetTitle"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/ediTxtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Name"
+            android:layout_below="@+id/txtName"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#7E7D7D"
+            android:background="@drawable/border_less"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email*"
+            android:textSize="20sp"
+            android:textColor="#A3A1A1"
+            android:layout_marginStart="20sp"
+            android:layout_below="@+id/ediTxtName"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/ediTxtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email"
+            android:layout_below="@+id/txtEmail"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#7E7D7D"
+            android:background="@drawable/border_less"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/txtMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile*"
+            android:textSize="20sp"
+            android:textColor="#A3A1A1"
+            android:layout_marginStart="20sp"
+            android:layout_below="@+id/ediTxtEmail"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/ediTxtMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email"
+            android:layout_below="@+id/txtMobile"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textColorHint="#7E7D7D"
+            android:background="@drawable/border_less"
+            android:padding="10dp"
+            />
+
+
+<!--        <Button-->
+<!--            android:id="@+id/btnUploadProfilePic"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/ediTxtMobile"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:background="@drawable/border_less"-->
+<!--            android:backgroundTint="#E63E6D"-->
+<!--            android:padding="10dp"-->
+<!--            android:text="Upload Profile Pic"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="bold" />-->
+
+        <Button
+            android:id="@+id/btnUpdateNewProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ediTxtMobile"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border_less"
+            android:backgroundTint="#C060A1"
+            android:padding="10dp"
+            android:text="Update Profile"
+            android:textAllCaps="false"
+            android:textSize="20sp" />
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

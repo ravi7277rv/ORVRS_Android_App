@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:orientation="vertical"
+    android:background="@color/blur_shade_1"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Mechanic With Details"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/ediTxtMecName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Enter Mechanic Name"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:inputType="text"
+        android:layout_margin="15dp"
+        android:padding="5dp"/>
+
+
+    <EditText
+        android:id="@+id/ediTxtMecEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Enter Mechanic Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:layout_margin="15dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/ediTxtMecPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Enter Mechanic Phone"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:layout_margin="15dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/ediTxtMecCharges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Enter Mechanic Charges"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:layout_margin="15dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/ediTxtMecExp_Year"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Enter Mechanic Experiences in Years"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:layout_margin="15dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/ediTxtMecExpert_In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Mechanic Expert In Vehicle"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:layout_margin="15dp"
+        android:padding="5dp"/>
+
+    <EditText
+        android:id="@+id/ediTxtMecAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Enter Mechanic Address"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:layout_margin="15dp"
+        android:padding="5dp"
+        android:gravity="top"
+        android:lines="5"
+        android:overScrollMode="always"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="insideInset"
+        android:scrollHorizontally="false"/>
+
+    <EditText
+        android:id="@+id/ediTxtMecPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:hint="Enter Mechanic Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:layout_margin="15dp"
+        android:padding="5dp"/>
+
+    <Button
+        android:id="@+id/btnAddMec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Mechanics "
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:backgroundTint="#033460"/>
+
+
+</LinearLayout>

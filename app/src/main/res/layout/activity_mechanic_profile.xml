@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MechanicProfile">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/border_mechanic"
+        android:orientation="horizontal"
+        android:layout_marginTop="-150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginTop="185dp"
+            android:layout_marginStart="50dp"/>
+
+        <TextView
+            android:id="@+id/txtMN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginTop="185dp"
+            android:layout_marginStart="15dp"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:backgroundTint="#3A3838"
+            app:cardCornerRadius="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical">
+
+<!-- ======================================================== -->
+                <ImageView
+                    android:id="@+id/imgMecPN"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_person_24"
+                    android:layout_marginStart="10dp"/>
+
+                <TextView
+                    android:id="@+id/txtMecPN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic Name"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_toRightOf="@+id/imgMecPN"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"/>
+
+                <View
+                    android:id="@+id/view_divider_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_below="@+id/txtMecPN"
+                    android:background="#ffffff"/>
+
+<!-- ======================================================== -->
+
+
+<!-- ======================================================== -->
+                <ImageView
+                    android:id="@+id/imgMecPP"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_local_phone_24"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@id/view_divider_name"/>
+
+                <TextView
+                    android:id="@+id/txtMecPP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic Phone"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_toRightOf="@+id/imgMecPP"
+                    android:layout_below="@+id/view_divider_name"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"/>
+
+                <View
+                    android:id="@+id/view_divider_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_below="@+id/txtMecPP"
+                    android:background="#ffffff"/>
+
+                <!-- ======================================================== -->
+
+                <!-- ======================================================== -->
+                <ImageView
+                    android:id="@+id/imgMecPE"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_email_24"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@id/view_divider_phone"/>
+
+                <TextView
+                    android:id="@+id/txtMecPE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic Phone"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_toRightOf="@+id/imgMecPE"
+                    android:layout_below="@+id/view_divider_phone"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"/>
+
+                <View
+                    android:id="@+id/view_divider_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_below="@+id/txtMecPE"
+                    android:background="#ffffff"/>
+
+                <!-- ======================================================== -->
+
+
+
+                <!-- ======================================================== -->
+                <ImageView
+                    android:id="@+id/imgMecPA"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/baseline_home_24"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@id/view_divider_email"/>
+
+                <TextView
+                    android:id="@+id/txtMecPA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic Phone"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_toRightOf="@+id/imgMecPA"
+                    android:layout_below="@+id/view_divider_email"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"/>
+
+                <View
+                    android:id="@+id/view_divider_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_below="@+id/txtMecPA"
+                    android:background="#ffffff"/>
+
+                <!-- ======================================================== -->
+
+
+                <!-- ======================================================== -->
+                <ImageView
+                    android:id="@+id/imgMecPC"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_currency_rupee_24"
+                    android:layout_marginStart="10dp"
+                    android:layout_below="@id/view_divider_address"/>
+
+                <TextView
+                    android:id="@+id/txtMecPC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanic Phone"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:layout_toRightOf="@+id/imgMecPC"
+                    android:layout_below="@+id/view_divider_address"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="15dp"/>
+
+                <View
+                    android:id="@+id/view_divider_charges"
+                    android:layout_width="match_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_below="@+id/txtMecPC"
+                    android:background="#ffffff"/>
+
+                <!-- ======================================================== -->
+
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
