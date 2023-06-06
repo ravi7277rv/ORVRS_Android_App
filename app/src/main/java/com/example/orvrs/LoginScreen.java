@@ -86,7 +86,7 @@ public class LoginScreen extends AppCompatActivity {
                     ediTextPassword.setError("Password required");
                     ediTextPassword.requestFocus();
                     return;
-                }
+                }   
 
                 else {
                     //Toast.makeText(LoginScreen.this, "Inside the firebaseAuth", Toast.LENGTH_SHORT).show();
